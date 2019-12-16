@@ -21,6 +21,7 @@
 namespace Nhom7.Funitare
 {
     using UnityEngine;
+	using UnityEngine.EventSystems;
 
     /// <summary>
     /// Manipulates the rotation of an object via a drag or a twist gesture.
@@ -78,15 +79,18 @@ namespace Nhom7.Funitare
         /// <param name="gesture">The current drag gesture.</param>
         protected override void OnContinueManipulation(DragGesture gesture)
         {
-            float sign = -1.0f;
-            Vector3 forward = Camera.main.transform.TransformPoint(Vector3.forward);
-            Quaternion WorldToVerticalOrientedDevice =
-                Quaternion.Inverse(Quaternion.LookRotation(forward, Vector3.up));
-            Quaternion DeviceToWorld = Camera.main.transform.rotation;
-            Vector3 rotatedDelta = WorldToVerticalOrientedDevice * DeviceToWorld * gesture.Delta;
+			if (EventSystem.current.currentSelectedGameObject == null)
+			{
+				float sign = -1.0f;
+				Vector3 forward = Camera.main.transform.TransformPoint(Vector3.forward);
+				Quaternion WorldToVerticalOrientedDevice =
+					Quaternion.Inverse(Quaternion.LookRotation(forward, Vector3.up));
+				Quaternion DeviceToWorld = Camera.main.transform.rotation;
+				Vector3 rotatedDelta = WorldToVerticalOrientedDevice * DeviceToWorld * gesture.Delta;
 
-            float rotationAmount = sign * (rotatedDelta.x / Screen.dpi) * k_RotationRateDegreesDrag;
-            transform.Rotate(0.0f, rotationAmount, 0.0f);
+				float rotationAmount = sign * (rotatedDelta.x / Screen.dpi) * k_RotationRateDegreesDrag;
+				transform.Rotate(0.0f, rotationAmount, 0.0f);
+			}
         }
 
         /// <summary>

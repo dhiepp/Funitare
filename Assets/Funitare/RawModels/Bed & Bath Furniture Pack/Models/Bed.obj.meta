@@ -1,62 +1,46 @@
 fileFormatVersion: 2
-guid: c84beb3192d1d434383e55539382a79c
+guid: 4122dec1742e2904f93fe455f244efa4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Camera
-    100004: Cube
-    100006: Cube.001
-    100008: Cube.002
-    100010: Cube.004
-    100012: Cube.005
-    100014: Plane
-    100016: Plane.001
-    100018: Plane.002
-    100020: Point
+    100002: Bed_Footboard
+    100004: Bed_Headboard
+    100006: Bed_Matress
+    100008: Bed_Pillow
+    100010: Bed_Sideboard
+    100012: BedPosts_Bed
     400000: //RootNode
-    400002: Camera
-    400004: Cube
-    400006: Cube.001
-    400008: Cube.002
-    400010: Cube.004
-    400012: Cube.005
-    400014: Plane
-    400016: Plane.001
-    400018: Plane.002
-    400020: Point
-    2000000: Camera
-    2100000: cotton02
-    2100002: Light
-    2100004: No Name
-    2100006: cotton03
-    2100008: Material
-    2100010: cotton01
-    2300000: Cube
-    2300002: Cube.001
-    2300004: Cube.002
-    2300006: Cube.004
-    2300008: Cube.005
-    2300010: Plane
-    2300012: Plane.001
-    2300014: Plane.002
-    3300000: Cube
-    3300002: Cube.001
-    3300004: Cube.002
-    3300006: Cube.004
-    3300008: Cube.005
-    3300010: Plane
-    3300012: Plane.001
-    3300014: Plane.002
-    4300000: Cube.005
-    4300002: Plane.002
-    4300004: Plane.001
-    4300006: Cube.004
-    4300008: Cube.002
-    4300010: Cube.001
-    4300012: Cube
-    4300014: Plane
-    10800000: Point
+    400002: Bed_Footboard
+    400004: Bed_Headboard
+    400006: Bed_Matress
+    400008: Bed_Pillow
+    400010: Bed_Sideboard
+    400012: BedPosts_Bed
+    2100000: Bed_FootboardMat
+    2100002: Bed_HeadboardMat
+    2100004: Bed_MatressMat
+    2100006: Bed_PillowMat
+    2100008: Bed_SideboardMat
+    2100010: BedPosts_BedMat
+    2300000: Bed_Footboard
+    2300002: Bed_Headboard
+    2300004: Bed_Matress
+    2300006: Bed_Pillow
+    2300008: Bed_Sideboard
+    2300010: BedPosts_Bed
+    3300000: Bed_Footboard
+    3300002: Bed_Headboard
+    3300004: Bed_Matress
+    3300006: Bed_Pillow
+    3300008: Bed_Sideboard
+    3300010: BedPosts_Bed
+    4300000: Bed_Footboard
+    4300002: Bed_Headboard
+    4300004: Bed_Matress
+    4300006: Bed_Pillow
+    4300008: Bed_Sideboard
+    4300010: BedPosts_Bed
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -91,7 +75,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -116,9 +99,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
