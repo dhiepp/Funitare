@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Funitare/Scenes/Splash.unity
     guid: 73b1be3dcae474947bdb244e1063e9c5
   - enabled: 1
-    path: Assets/Funitare/Scenes/Menu.unity
-    guid: 08f0325986baa244fb2d189687854c0b
-  - enabled: 1
     path: Assets/Funitare/Scenes/Main.unity
     guid: 9a2735570cb3a0842a52aca57b3b8e9f
   m_configObjects: {}
