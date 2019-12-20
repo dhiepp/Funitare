@@ -43,6 +43,7 @@
 			Debug.Log("Permission result: " + NativeGallery.SaveImageToGallery(ss, Application.productName, name));
 
 			SetUI(true);
+
 			ShowSnackBar("Image Captured!");
 		}
 

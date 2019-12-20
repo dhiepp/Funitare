@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197476776369506}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.2508887, y: 0, z: -0.14873505}
+  m_LocalPosition: {x: 0.7662425, y: 0, z: -0.14740594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4008794017647016}
@@ -119,7 +119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499826253595732}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.9446462, y: 0.33677363, z: 0.1686709}
+  m_LocalPosition: {x: 1.46, y: 0.33677363, z: 0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4008794017647016}
@@ -212,7 +212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499844581687536}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.2429229, y: 0.32119808, z: -0.14873505}
+  m_LocalPosition: {x: 0.7582767, y: 0.32119808, z: -0.14740594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4008794017647016}
@@ -316,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594281654760376}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.9446462, y: 0.33677363, z: -0.49127913}
+  m_LocalPosition: {x: 1.46, y: 0.33677363, z: -0.48995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4008794017647016}
@@ -391,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4008794017647016}
   m_Layer: 0
-  m_Name: Bed_Set
+  m_Name: Bed 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
