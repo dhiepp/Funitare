@@ -120,6 +120,9 @@ namespace Nhom7.Funitare
                     manipulator.GetComponent<Manipulator>().Select();
 
 					PawnController.SpawnedObjects.Add(manipulator);
+
+					//Play the sound
+					SoundController.PlayPlaceSound();
                 }
 				
 			}

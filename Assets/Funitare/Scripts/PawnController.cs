@@ -22,6 +22,8 @@
 				{
 					Destroy(del.transform.parent.gameObject);
 					SpawnedObjects.Remove(del);
+
+					SoundController.PlayPopSound();
 				}
 			}
 		}

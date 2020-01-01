@@ -39,11 +39,13 @@
 			categoryMenu.SetActive(true);
 			itemMenu.SetActive(false);
 			check = true;
+			MenuPanel.GetComponent<Image>().color = new Color(255, 255, 255);
 			Debug.Log("CLICKED back");
 		}
 
 		private void init()
 		{
+
 			string type = Category.type;
 			if (type.Length == 0) return;
 
@@ -73,6 +75,8 @@
 			}
 
 			content.transform.localPosition = new Vector2(n*50, 0);
+
+			MenuPanel.GetComponent<Image>().color = new Color(255, 150, 150, 255);
 		}
 	}
 }

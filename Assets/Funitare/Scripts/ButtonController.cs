@@ -9,6 +9,7 @@
 		public Button CaptureBtn;
 		public Button MenuBtn;
 		public Button DeleteBtn;
+		public Button QuitBtn;
 		public GameObject MenuPanel;
 		
 		public GameObject PlaneGenerator;
@@ -45,6 +46,7 @@
 			SetUI(true);
 
 			ShowSnackBar("Image Captured!");
+			SoundController.PlayCaptureSound();
 		}
 
 		private void SetUI(bool state)
@@ -52,6 +54,7 @@
 			CaptureBtn.gameObject.SetActive(state);
 			MenuBtn.gameObject.SetActive(state);
 			DeleteBtn.gameObject.SetActive(state);
+			QuitBtn.gameObject.SetActive(state);
 			PlaneGenerator.SetActive(state);
 			PointCloud.SetActive(state);
 		}
@@ -65,6 +68,11 @@
 		public void ClickDelete()
 		{
 			PawnController.deleteSelectedObject();
+		}
+
+		public void ClickQuit()
+		{
+			Application.Quit();
 		}
 
 		void Update()
